@@ -1,0 +1,17 @@
+{
+  "name": "qr-code-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vercel/node": "^2.10.3",
+    "qrcode": "^1.5.4",
+    "vercel": "^32.3.0"
+  }
+}
