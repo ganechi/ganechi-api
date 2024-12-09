@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  title: ganechi-api
+  version: 0.0.1
+servers:
+  - url: https://ganechi-api.vercel.app/api
+paths:
+   "/qr":
+    get:
+      tags:
+        - QR Code
+      summary: A QR code generation endpoint
+      parameters:
+        - name: text
+          in: query
+          required: true
+          description: URL encoded string to convert to a QR code
+          schema:
+            type: string
+      responses:
+        200:
+          description: OK
+          content:
+              application/png:
+                schema: 
+                  type: string
+                  format: binary
+          

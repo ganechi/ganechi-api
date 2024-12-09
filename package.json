@@ -1,5 +1,5 @@
 {
-  "name": "qr-code-api",
+  "name": "ganechi-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "dependencies": {
     "@vercel/node": "^2.10.3",
     "qrcode": "^1.5.4",
-    "vercel": "^32.3.0"
+    "vercel": "^28.18.5"
   }
 }
